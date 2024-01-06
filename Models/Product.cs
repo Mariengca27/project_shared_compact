@@ -12,6 +12,8 @@ namespace GerenciadorDeProdutosCRUD.Models
         [DisplayName("Product Name")]
         public string ProductName { get; set; }
 
+        public string ProductMari { get; set; }
+
         [Required]
         public double Price { get; set; }
         [Required]
