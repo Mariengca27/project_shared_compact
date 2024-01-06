@@ -10,7 +10,7 @@ namespace GerenciadorDeProdutosCRUD.Models
 
         [Required]
         [DisplayName("Product Name")]
-        public string ProductName { get; set; }
+        public string ProductNameMariana { get; set; }
 
         [Required]
         public double Price { get; set; }
